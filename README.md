@@ -11,7 +11,7 @@ $X + Y \rightarrow 2Y$
 
 $Y \rightarrow B$
 
-```
+```math
 \begin{equation}\label
 {{dX} \over {dt}} = k_1[A][X] - k_2 [X][Y]
 \end{equation}
