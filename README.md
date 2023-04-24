@@ -67,3 +67,6 @@ gnuplot is used for plotting the result obtained from the simulation. After the 
 **[X] vs [Y] Plot**
 
 ![X Vs Y Plot](/images/rk2.svg)
+
+# Notes
+- The subroutine [rk4.f](/src/rk4.f) was adapted from [Numerical Recipes in Fortran 77, Second Edition (1992)](http://phys.uri.edu/nigh/NumRec/bookfpdf/f16-1.pdf)
