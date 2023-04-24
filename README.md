@@ -60,4 +60,6 @@ $y_0 = 15.0$
 # Plotting the Result
 gnuplot is used for plotting the result obtained from the simulation.
 
-1. [X],[Y] vs Time (t) plot
+** 1. [X],[Y] vs Time (t) plot **
+
+** [X] vs [Y] Plot **
