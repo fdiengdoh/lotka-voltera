@@ -14,4 +14,5 @@ $$Y \rightarrow B$$
 Rate change for X and Y can be defined as:
 
 $${{dX} \over {dt}} = \alpha[A][X] - \beta [X][Y]$$
+
 $${{dY} \over {dt}} = \gamma[X][Y] - \delta [Y]$$
