@@ -11,4 +11,4 @@ $X + Y \rightarrow 2Y$
 
 $Y \rightarrow B$
 
-${{dX} \over {dt}} = k_1[A][X] - k_2 [X][Y]$
+$${{dX} \over {dt}} = k_1[A][X] - k_2 [X][Y]$$
