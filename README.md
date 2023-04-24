@@ -1,7 +1,7 @@
-# Lotka-Voltera
+# Lotka-Voltrera
 Solution to Lota-Voltera prey-predator model using Fortran
 
-Lotka Voltera prey-predator model, for an autocatalytic reaction. 
+Lotka Volterra prey-predator model, for an autocatalytic reaction. 
 
 ## File List
 - [lvpp.f](/src/lvpp.f) - Main Routine 
