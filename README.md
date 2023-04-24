@@ -57,6 +57,10 @@ $x_0 = 100.0$
 
 $y_0 = 15.0$
 
+**Output Result**
+
+Output result file [lv-res.dat](/src/lv-res.dat) is included here for reference. 
+
 # Plotting the Result
 [gnuplot](http://www.gnuplot.info/) is used for plotting the result obtained from the simulation. After the result is obtained, gnuplot is set to output in svg and also in png. The svg files are given below, while you can also look for png files in [images](/images) directory. 
 
@@ -80,6 +84,8 @@ set ylabel "[Y]"
 set output "rk2.svg"
 plot "lv-res.dat" using 2:3 w l lw 3 lc rgb '#0060ad' title ""
 ```
+
+This setting file is included as a shell script file [xy_svg.sh](/src/xy_svg.sh)
 
 **[X],[Y] vs Time (t) plot**
 
