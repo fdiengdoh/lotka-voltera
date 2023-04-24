@@ -22,6 +22,6 @@ Using the 4th Order Runge-Kutta Method to solve the above system of differential
 $$k_1 = hf(t_n,x_n,y_n)$$
 $$l_1 = hg(t_n,x_n,y_n)$$
 
-$$k_2 = hf(t_n + h \over{2}, x_n + k_1, y_n + l \over{2}) $$
+$$k_2 = hf(t_n + h \over{2}, x_n + k_1, y_n + l ) $$
 
 $$l_2 = hf(t_n +h/2, x_n + k_2/2, y_n + l2/2$$
