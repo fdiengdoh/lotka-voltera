@@ -5,12 +5,11 @@ Lotka Voltera prey-predator model, for an autocatalytic reaction.
 
 For the reaction
 
-$A \rightarrow 2X $
+$$A \rightarrow 2X
 
-$X + Y \rightarrow 2Y$
+X + Y \rightarrow 2Y
 
-$Y \rightarrow B$
+Y \rightarrow B
 
-$$\begin{equation} \label{eq1}
 {{dX} \over {dt}} = k_1[A][X] - k_2 [X][Y]
-\end{equation}$$
+$$
