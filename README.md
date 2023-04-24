@@ -58,7 +58,28 @@ $x_0 = 100.0$
 $y_0 = 15.0$
 
 # Plotting the Result
-gnuplot is used for plotting the result obtained from the simulation. After the result is obtained, gnuplot is set to output in svg and also in png. The svg files are given below, while you can also look for png files in [images](/images) directory. 
+[gnuplot](http://www.gnuplot.info/) is used for plotting the result obtained from the simulation. After the result is obtained, gnuplot is set to output in svg and also in png. The svg files are given below, while you can also look for png files in [images](/images) directory. 
+
+Settings for gnuplot to output svg files are as follows:
+
+```
+#!/usr/local/bin/gnuplot -persist
+
+set terminal svg enhanced font 'Arial,11'
+set output "rk.svg"
+set title "[X]/[Y] vs Time Plot"
+set xlabel "Time (t)"
+set ylabel "[X]/[Y]"
+set yrange [0:450]
+plot "lv-res.dat" u (column(0)):2 w l lw 3 lc rgb '#9400d4' title "[X]","lv-res.dat" u (column(0)):3 w l lw 3 lc rgb '#0060ad' title "[Y]"
+
+set terminal svg enhanced font 'Arial,11'
+set title "[X] vs [Y] Plot"
+set xlabel "[X]"
+set ylabel "[Y]"
+set output "rk2.svg"
+plot "lv-res.dat" using 2:3 w l lw 3 lc rgb '#0060ad' title ""
+```
 
 **[X],[Y] vs Time (t) plot**
 
