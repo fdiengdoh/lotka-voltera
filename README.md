@@ -41,7 +41,7 @@ $$x_{n+1} = x_n + {1\over6}(k_1 + 2k_2 + 2k_3 + k_4)$$
 
 $$y_{n+1} = y_n + {1\over6}(l_1 + 2l_2 + 2l_3 + l_4)$$
 
-Using the above algorithm, a Fortran program is created and values of $x_i$,$y_i$ are obtained from $x_0 - x_n$ and $y_0 - y_n$ at interval of time $t = h$. Taking the example values as follows:
+Using the above algorithm, a Fortran program is [created](/src/) and values of $x_i$,$y_i$ are obtained from $x_0 - x_n$ and $y_0 - y_n$ at interval of time $t = h = 0.01$ for 2000 times. Taking the example values as follows:
 
 $\alpha = 2.0$
 
@@ -58,7 +58,7 @@ $x_0 = 100.0$
 $y_0 = 15.0$
 
 # Plotting the Result
-gnuplot is used for plotting the result obtained from the simulation.
+gnuplot is used for plotting the result obtained from the simulation. After the result is obtained, gnuplot is set to output in svg and also in png. The svg files are given below, while you can also look for png files in [images](/images) directory. 
 
 **[X],[Y] vs Time (t) plot**
 
