@@ -62,8 +62,8 @@ gnuplot is used for plotting the result obtained from the simulation.
 
 **[X],[Y] vs Time (t) plot**
 
-![X,Y Vs Time Plot](/images/rk.png)
+![X,Y Vs Time Plot](/images/rk.svg)
 
 **[X] vs [Y] Plot**
 
-![X Vs Y Plot](/images/rk2.png)
+![X Vs Y Plot](/images/rk2.svg)
