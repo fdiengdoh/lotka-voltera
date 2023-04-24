@@ -3,6 +3,11 @@ Solution to Lota-Voltera prey-predator model using Fortran
 
 Lotka Voltera prey-predator model, for an autocatalytic reaction. 
 
+## File List
+- [lvpp.f](/src/lvpp.f) - Main Routine 
+- [derivs.f](/src/derivs.f) - ODE Sub Routine
+- [rk4.f](/src/rk4.f) - 4th Order Runge-Kutta Method to solve a system of differential equations
+
 **For the reaction**
 
 $$A \rightarrow 2X$$
