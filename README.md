@@ -1,5 +1,5 @@
-# Lotka-Voltrera
-Solution to Lota-Voltera prey-predator model using Fortran
+# Lotka-Volterra
+Solution to Lota-Volterra prey-predator model using Fortran
 
 Lotka Volterra prey-predator model, for an autocatalytic reaction. 
 
