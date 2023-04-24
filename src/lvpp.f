@@ -18,13 +18,17 @@ c     Main Routine of the Lotka-Voltera Prey-Predator
       
       call derivs(x,y,dydx)
       
+      open(unit=3,file='lv-res.dat',status='replace',form='formatted')
+      
       do i=1,nm
-        write(*,*)x,y(1),y(2)
+        write(3,*)x,y(1),y(2)
         x = x+h 
         call derivs(x,y,dydx)
         call rk4(y,dydx,n,x,h,yout,derivs)
         y(1)=yout(1)
         y(2)=yout(2)
-      enddo      
+      enddo
+      
+      close(3)
       STOP
       END
