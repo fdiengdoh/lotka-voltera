@@ -67,7 +67,7 @@ $y_0 = 15.0$
 Output result file [lv-res.dat](/src/lv-res.dat) is included here for reference. 
 
 # Plotting the Result
-[gnuplot](http://www.gnuplot.info/) is used for plotting the result obtained from the simulation. After the result is obtained, gnuplot is set to output in svg and also in png. The png files are given below, while you can also check the svg files in [images](/images) directory. 
+[gnuplot](http://www.gnuplot.info/) is used for plotting the result obtained from the simulation. After the result is obtained, gnuplot is set to output in svg/png. Sample plot is shown below. You can also check the svg files in [images](/images) directory. 
 
 Settings for gnuplot to output svg files are as follows:
 
