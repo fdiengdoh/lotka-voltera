@@ -94,7 +94,7 @@ This setting file is included as a shell script file [xy_svg.sh](/src/xy_svg.sh)
 
 **[X],[Y] vs Time (t) plot**
 
-![X,Y Vs Time Plot](/images/rk.png)
+<img src="/images/rk.png" width="200" >
 
 **[X] vs [Y] Plot**
 
