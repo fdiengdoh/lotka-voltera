@@ -94,11 +94,11 @@ This setting file is included as a shell script file [xy_svg.sh](/src/xy_svg.sh)
 
 **[X],[Y] vs Time (t) plot**
 
-<img src="/images/rk.png" width="200" >
+<img src="/images/rk.png" width="100%" >
 
 **[X] vs [Y] Plot**
 
-![X Vs Y Plot](/images/rk2.png)
+<img src="/images/rk2.png" width="100%">
 
 # Notes
 - The subroutine [rk4.f](/src/rk4.f) was adapted from [Numerical Recipes in Fortran 77, Second Edition (1992)](http://phys.uri.edu/nigh/NumRec/bookfpdf/f16-1.pdf)
